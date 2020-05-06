@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>boxes page</title>
+
+  <style>
+    /* the following is the box-sizing reset */
+
+    /* 
+    html {
+      box-sizing: border-box;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+    */
+
+    /* now back to regular styling */
+    body {
+      color: #14080E;
+      background: linear-gradient(to right, #74ebd5, #acb6e5);
+    }
+
+    header {}
+
+    main {}
+
+    #one {
+      background-color: rgb(97, 185, 212);
+      border: 2px solid;
+      padding: 10px;
+      padding-left: 20px;
+      margin: 10px;
+      margin-left: auto; margin-right: auto;
+      width: 750px;
+      height: 75px;
+      text-align: center;
+      border-radius: 20px;
+      background: linear-gradient(to right, #fc4a1a, #f7b733);;
+    }
+
+    #two {
+      background-color: rgb(97, 185, 212);
+      border: 2px solid;
+      padding: 30px;
+      padding-left: 20px;
+      margin: 10px;
+      margin-left: auto; margin-right: auto;
+      width: 400px;
+      height: 200px;
+      text-align: center;
+      border-radius: 45px;
+      background: linear-gradient(to right, #fc4a1a, #f7b733)
+    }
+
+    #three {
+      border: 2px solid;
+      padding: 15px;
+      margin: 10px;
+      margin-left: auto; margin-right: auto;
+      width: 400px;
+      height: 200px;
+      text-align: center;
+      border-radius: 45px;
+      background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    }
+
+    #four {
+      margin-left: auto; margin-right: auto;
+      border: 2px solid;
+      text-align: center;
+      border-radius: 15px;
+      background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Boxes page</h1>
+  </header>
+
+  <main>
+    <!-- a box is called a div in html -->
+
+    <div id="one">
+      <p>box</p>
+    </div>
+
+    <div id="two">
+      <p>Cooler box</p>
+    </div>
+
+    <!-- this div has another div inside it -->
+    <div id="three">
+      <div id="four">
+        <p>Box in a box</p>
+      </div>
+      <p>Big ox</p>
+    </div>
+
+  </main>
+
+</body>
+
+</html>
