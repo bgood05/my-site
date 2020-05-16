@@ -58,6 +58,7 @@ p {
 }
 
 h2 {
+  text-align: center;
   color: white;
 }
 
@@ -88,25 +89,36 @@ nav ul {
 }
 
 nav a {
-	display: block;
-	background: white;
-	width: 100%;
-    height: 2rem;
-	text-decoration: none;
-    text-align: center;
+  display: block;
+            background: #86c2eb;
+            color: white;
+            height: 2rem;
+            margin-bottom: .5rem;
+            text-align: center;
+            text-decoration: none;
 }
 
 nav a:hover {
 	background: lightblue;
 }
-
+footer li {
+  display: inline;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
   </style>
 </head>
 
 <body>
   <header class="clearfix">
     <h1>Seahorses</h1>
-    <img id="header-img" src="images/david-clode-fG1fdervp1E-unsplash.jpg" alt="seahorses are fun" />
+    <figure>
+    <img id="header-img" src="images/seahorse.jpg" alt="seahorse is here" />
+    </figure>
   </header>
 
   <main class="clearfix">
