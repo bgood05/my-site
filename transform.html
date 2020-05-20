@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>template</title>
+
+    <!-- style is how you add internal css rules to your html -->
+    <style>
+    div {
+	margin-bottom: 50px;
+    margin: auto;
+}
+#one {
+    background: #87bef5;
+    width: 100px ;
+    height: 100px;
+	transition: transform 0.5s;
+    background:inherit 2s;
+}
+
+#one:hover {
+	background: #3485f0;
+	transform: rotate(45deg);
+	transition: transform 0.5s;
+}
+
+#two {
+    background: #df9361;
+    width: 100px ;
+    height: 100px;
+    transition: transform 1s;
+    background:inherit 2s;
+    
+}
+
+#two:hover {
+	background: #db9646;
+	transform: scale(1.2);
+	transition: transform 0.5s;
+}
+
+#three {
+    background: #be5aa5;
+    width: 100px ;
+    height: 100px;
+    transition: transform .03s;
+    background: inherit 2s;
+}
+
+#three:hover {
+	background: #c23ddd;
+	transform: rotateY(360deg);
+	transition: transform 0.5s;
+}
+
+#four {
+    background: #dff565;
+    width: 100px ;
+    height: 100px;
+    transition: transform .03s;
+    background: inherit 2s;
+}
+
+#four:hover {
+	background: #f1d743;
+	transform: translate(10px, 10px);
+	transition: transform 0.5s;
+}
+    </style>
+</head>
+
+<!-- style is how you add elements to your html -->
+<body>
+    <div id="one"><p>Spin</p></div>
+
+    <div id="two"><p>Grow</p></div>
+
+    <div id="three"><p>Flippy</p></div>
+
+    <div id="four"><p>Slidy</p></div>
+</body>
+
+</html>
