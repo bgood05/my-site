@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+    margin: 200px;
+    margin-top: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: circle;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+h1 {
+    text-align: center;
+    margin: 200px;
+ background-color: blue;
+  animation-name: stuff;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+h2 {
+    text-align: center;
+    margin: 200px;
+ background-color: blue;
+  animation-name: ok;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+body {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: thing;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+@keyframes circle {
+	0% {
+		background-color: rgb(0, 0, 0);
+		transform: scale(1);
+	}
+    50% {
+        border-radius: 50%;
+        transform: scale(3);
+        transform:translate(0px, 100px);
+        transform:scale( 2.5);
+        transform: rotate(180deg);
+    }
+	100% {
+		background-color: rgb(255, 255, 255);
+		transform: scale(30);
+	}
+}
+
+@keyframes thing {
+	0% {
+		background-color: rgb(255, 255, 255);
+	}
+    50% {
+        border-radius: 50%;
+    }
+	100% {
+		background-color: rgb(0, 0, 0);
+		
+	}
+}
+
+@keyframes stuff {
+	0% {
+		background-color: rgb(51, 129, 245);
+	}
+    50% {
+        transform: scale(3);
+    }
+	100% {
+		background-color: rgb(71, 109, 233);
+		transform: scale(2);
+	}
+}
+
+@keyframes ok {
+	0% {
+		background-color: rgb(51, 129, 245);
+	}
+    50% {
+        transform: rotate(90deg);
+    }
+	100% {
+        transform: rotate(0deg);
+		background-color: rgb(71, 109, 233);
+	}
+}
+</style>
+</head>
+<body>
+<div></div>
+<h1>stuff</h1>
+<h2>Cool</h2>
+
+</body>
+</html>
